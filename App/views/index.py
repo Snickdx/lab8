@@ -17,7 +17,7 @@ def init():
 
 @index_views.route('/hello', methods=['GET'])
 def hello():
-    return jsonify(message=hello)
+    return jsonify(message='hello')
 
 @index_views.route('/health', methods=['GET'])
 def health_check():
